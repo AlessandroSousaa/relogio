@@ -1,18 +1,17 @@
-﻿setInterval(() => 
-    {
-	d = new Date(); //objeto instância de date()
-	hr = d.getHours();
-	min = d.getMinutes();
-	seg = d.getSeconds();
-	hr_rotacao = 30 * hr + min / 2; //convertendo o tempo atual
-	min_rotacao = 6 * min;
-	seg_rotacao = 6 * seg;
+﻿setInterval(() => {
+		d = new Date(); //objeto instância de date()
+		hr = d.getHours();
+		min = d.getMinutes();
+		seg = d.getSeconds();
+		hr_rotacao = 30 * hr + min / 2; //convertendo o tempo atual
+		min_rotacao = 6 * min;
+		seg_rotacao = 6 * seg;
 
-	hora.style.transform = `rotate(${hr_rotacao}deg)`;  // deg = degrees = graus 
-	minuto.style.transform = `rotate(${min_rotacao}deg)`;
-	segundo.style.transform = `rotate(${seg_rotacao}deg)`;
-    }, 
-1000
+		hora.style.transform = `rotate(${hr_rotacao}deg)`; // deg = degrees = graus 
+		minuto.style.transform = `rotate(${min_rotacao}deg)`;
+		segundo.style.transform = `rotate(${seg_rotacao}deg)`;
+	},
+	1000
 );
 
 //
