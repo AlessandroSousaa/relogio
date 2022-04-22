@@ -17,7 +17,7 @@
 	position: absolute; 	/* Um elemento com position: absolute é posicionado em relação ao ancestral posicionado mais próximo (em vez de posicionado em relação à janela de visualização */
 	background: black;			/* definindo a cor de fundo */	
 	border-radius: 10px;		/* adicionar cantos arredondados aos elementos */
-	transform-origin: bottom;	/* alterar a posição dos elementos transformados. */
+	transform-origin: bottom;	/* informa a origem da transformacao */
 }
 
 /* Seletor de ID */
