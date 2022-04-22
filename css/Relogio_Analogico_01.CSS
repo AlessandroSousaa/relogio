@@ -1,11 +1,10 @@
 ﻿/* Seletor de ID */
 #relogioContainer {
 	position: relative; 	/* Um elemento com position: relative;é posicionado em relação à sua posição normal. */
-	margin: auto; 	/* cria espaço ao redor dos elementos */
-	height: 40vw;	/* altura */
-	width: 40vw;	/* largura*/
-	background: url(../img/Relogio_Analogico_04.jpg) no-repeat;
-	/* definindo nossa imagem de fundo */
+	margin: auto; 		/* cria espaço ao redor dos elementos */
+	height: 40vw;		/* altura */
+	width: 40vw;		/* largura*/
+	background: url(../img/Relogio_Analogico_04.jpg) no-repeat; 	/* definindo nossa imagem de fundo */
 	background-size: 100%;	/* definindo o tamanho da imagem de fundo */
 }
 
@@ -14,8 +13,8 @@
 #minuto,
 #segundo {
 	
-	position: absolute; 	/* Um elemento com position: absolute é posicionado em relação ao ancestral posicionado mais próximo (em vez de posicionado em relação à janela de visualização */
-	background: black;			/* definindo a cor de fundo */	
+	position: absolute; 		/* Um elemento com position: absolute é posicionado em relação ao ancestral posicionado mais próximo (em vez de posicionado em relação à janela de visualização */
+	background: black;		/* definindo a cor de fundo */	
 	border-radius: 10px;		/* adicionar cantos arredondados aos elementos */
 	transform-origin: bottom;	/* informa a origem da transformacao */
 }
@@ -24,7 +23,7 @@
 #hora {
 	width: 1.8%;	/* largura */ 
 	height: 25%;	/* altura */
-	top: 25%;		/* posição vertical */
+	top: 25%;	/* posição vertical */
 	left: 48.85%;	/* posição horizontal */
 	opacity: 0.8;	/* opacidade */
 }
@@ -33,16 +32,16 @@
 #minuto {
 	width: 1.6%;	/* largura */
 	height: 30%;	/* altura */
-	top: 19%;		/* posição vertical */
+	top: 19%;	/* posição vertical */
 	left: 48.9%;	/* posição horizontal */
 	opacity: 0.8;	/* opacidade */
 }
 
 /* Seletor de ID */
 #segundo {
-	width: 1%;		/* largura */
+	width: 1%;	/* largura */
 	height: 40%;  	/* altura */
-	top: 9%;		/* posição vertical */
+	top: 9%;	/* posição vertical */
 	left: 49.25%;	/* posição horizontal */
 	opacity: 0.8;	/* opacidade */
 }
